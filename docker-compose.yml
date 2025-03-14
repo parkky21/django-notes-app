@@ -1,7 +1,6 @@
 version: "3.8"
 services:
   web:
-    build:
-      context: .
+    image: "parkky21/notes-app:latest"
     ports:
       - "8000:8000"
